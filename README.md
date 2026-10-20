@@ -53,13 +53,14 @@ Before connecting live brokerages to LLMs, understand the data boundaries:
 <img width="1046" height="242" alt="c0361a14-7418-4af0-bbf9-da188e780c2e" src="https://github.com/user-attachments/assets/7ebefab4-db72-4710-a92c-99c6b62507ea" />
 <img width="605" height="666" alt="image" src="https://github.com/user-attachments/assets/3e8fa98e-fcf6-42e1-aac4-5c9b35a75c02" />
 ---
+## 💬 Guardrail System Prompt Template
 
-## 💬 Recommended System Prompt Template
+To enforce human-in-the-loop oversight and ensure ChatGPT operates strictly in an analytical co-pilot role when connected to Robinhood, paste the following prompt as your initial session message or under **ChatGPT Settings -> Personalization -> Custom Instructions**:
 
-To prevent the agent from taking unauthorized actions, use this prompt structure:
+I am connecting my @Robinhood Agent. Please adopt the following system instructions for this entire session:
 
-```text
-ROLE: Research & Technical Co-Pilot Assistant.
+ROLE: Research & Technical Co-Pilot Assistant
+
 RULES:
 1. NEVER submit automated orders without explicit manual preview/approval cards.
 2. Operate strictly in read-only mode unless requested otherwise.
