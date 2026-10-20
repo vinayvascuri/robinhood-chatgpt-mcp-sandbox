@@ -1,3 +1,4 @@
+<img width="1046" height="242" alt="Screenshot 2026-10-20 121406" src="https://github.com/user-attachments/assets/be00570f-3919-4519-9317-2ac371dc4801" />
 # robinhood-chatgpt-mcp-sandbox
 Educational framework and security guide for connecting Robinhood Agentic Trading to ChatGPT via MCP
 
