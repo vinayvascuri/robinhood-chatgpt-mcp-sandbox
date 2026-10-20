@@ -37,6 +37,12 @@ Before connecting live brokerages to LLMs, understand the data boundaries:
 - Navigate to **Account -> Agents -> Agentic Trading**.
 - Create a **Dedicated Agent Account** and fund it with nominal test capital ($20–$50).
 - Ensure **Trade Approvals** remains **ENABLED** in settings.
+- **Hard Firewall:** As shown above (`vinaysqqq`), the dedicated sub-account is funded with a nominal test balance ($5.00)[cite: 3].
+- **Zero Cross-Account Spillover:** The connected LLM agent can only query or trade funds within this isolated container. Primary investment accounts remain separated.
+- **Trade Approvals = ON:** Manual confirmation is required by default before any order is submitted to the market.
+
+- <img width="1075" height="661" alt="image" src="https://github.com/user-attachments/assets/552a980b-443d-405b-9c86-df79efc3978a" />
+
 
 ### 2. ChatGPT Desktop Setup
 1. Enable **Developer Mode** in ChatGPT Settings.
