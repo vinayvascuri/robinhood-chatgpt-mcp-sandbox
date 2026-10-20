@@ -22,7 +22,6 @@ This project explores the integration between Robinhood's dedicated Agentic Trad
 ---
 
 ## 🔒 Security & Privacy Considerations (Crucial)
-```text
 
 Before connecting live brokerages to LLMs, understand the data boundaries:
 
@@ -55,6 +54,7 @@ Before connecting live brokerages to LLMs, understand the data boundaries:
 <img width="605" height="666" alt="image" src="https://github.com/user-attachments/assets/3e8fa98e-fcf6-42e1-aac4-5c9b35a75c02" />
 ---
 ## 💬 Guardrail System Prompt Template
+```text
 
 To enforce human-in-the-loop oversight and ensure ChatGPT operates strictly in an analytical co-pilot role when connected to Robinhood, paste the following prompt as your initial session message or under **ChatGPT Settings -> Personalization -> Custom Instructions**:
 
