@@ -22,6 +22,7 @@ This project explores the integration between Robinhood's dedicated Agentic Trad
 ---
 
 ## 🔒 Security & Privacy Considerations (Crucial)
+```text
 
 Before connecting live brokerages to LLMs, understand the data boundaries:
 
