@@ -1,7 +1,7 @@
 
 
 
-# robinhood-chatgpt-mcp-sandbox
+# Robinhood-Chatgpt-MCP-Sandbox
 Educational framework and security guide for connecting Robinhood Agentic Trading to ChatGPT via MCP
 
 # 🤖 Robinhood Agentic Trading & ChatGPT MCP Sandbox
