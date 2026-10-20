@@ -1,4 +1,5 @@
-<img width="1046" height="242" alt="Screenshot 2026-10-20 121406" src="https://github.com/user-attachments/assets/be00570f-3919-4519-9317-2ac371dc4801" />
+
+
 # robinhood-chatgpt-mcp-sandbox
 Educational framework and security guide for connecting Robinhood Agentic Trading to ChatGPT via MCP
 
@@ -41,6 +42,8 @@ Before connecting live brokerages to LLMs, understand the data boundaries:
 2. Under **Plugins / Custom Connectors**, click `Add custom MCP server`.
 3. Enter URL: `https://agent.robinhood.com/mcp/trading`
 4. Complete Robinhood OAuth authentication.
+
+<img width="1046" height="242" alt="c0361a14-7418-4af0-bbf9-da188e780c2e" src="https://github.com/user-attachments/assets/7ebefab4-db72-4710-a92c-99c6b62507ea" />
 
 ---
 
